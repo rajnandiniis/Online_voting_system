@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online_voting_system -Registration</title>
+  <link rel="stylesheet"  href="../css/style.css">
+</head>
+<body>
+  <style>
+    #address{
+      width: 22.3%;
+    }
+    #img{
+      border: solid black 1px;
+      padding: 10px;
+      border-radius: 5px;
+      margin-left: 38%;
+      margin-right: 38%;
+     /* display: inline-block; */
+     text-align: center;
+   
+       
+      
+    }
+    #role{
+      border: solid black 1px;
+      padding: 10px;
+      border-radius: 5px;
+      margin-left: 38%;
+      margin-right: 38%;
+    }
+  </style>
+  <h1>Online Voting System</h1>
+  <hr>
+  <h3>Registration</h3>
+  <form action="#">
+  <input type="text" name="name" placeholder="Name">
+  <input type="number" name="number " placeholder=" Enter mobile number"><br><br>
+  <input type="password" name="password " placeholder="Password">
+  <input type="password" name="password" placeholder="Confirm Password"><br><br>
+  <input id="address"  type="text" name=" name" placeholder="Address"><br><br>
+  <centre>
+  <div id="img">Upload Image: <input type="file" name="photo">
+     <!-- <span id="file-chosen"></span> -->
+    </div>
+<br><br>
+   <div id="role">
+   Select your role: <select name="role">
+    <option value="1">Voter</option>
+    <option value="2">Group</option>
+  </select>
+</div>
+</centre>
+<br><br>
+  <button style=" padding: 10px;
+  border-radius: 5px;
+  background-color: #cccccc;
+  width: 9%;">Register</button><br><br>
+  Already user ? <a href="../index.html">Login here</a>
+</form>
+</body>
+</html>
